@@ -1,0 +1,24 @@
+# Configuration du pipeline de données
+
+# Liens d'accès aux données
+val_fon_22: 'https://www.data.gouv.fr/fr/datasets/r/87038926-fb31-4959-b2ae-7a24321c599a'
+val_fon_21: 'https://www.data.gouv.fr/fr/datasets/r/817204ac-2202-4b4a-98e7-4184d154d98c'
+france_dept : 'data/departements-france.csv'
+
+# Colonnes a prendre en compte
+select_col_list : ['No disposition', 'Date mutation', 'Nature mutation', 'Valeur fonciere', 
+                   'Code voie', 'Voie', 'Code postal', 'Commune', 'Code departement', 
+                   'Code commune', 'No Volume', '1er lot', 'Surface Carrez du 1er lot', '2eme lot', 
+                   'Surface Carrez du 2eme lot', '3eme lot', 'Surface Carrez du 3eme lot', 
+                   '4eme lot', 'Surface Carrez du 4eme lot', '5eme lot', 'Surface Carrez du 5eme lot',
+                   'Nombre de lots', 'Code type local', 'Type local', 'Surface reelle bati', 
+                   'Nombre pieces principales']
+
+
+# Columns rename
+col_rename : {"no disposition": "no_disposition", "date mutation": "date_mutation", "nature mutation": "nature_mutation", 
+              "valeur fonciere": "valeur_fonciere", "code voie": "code_voie", "code postal": "code_postal", 
+              "code departement": "code_departement", "code commune": "code_commune", "nombre de lots": "nombre_de_lots", 
+              "code type local": "code_type_local", "type local": "type_local", "surface reelle bati": "surface_reelle_bati", 
+              "nombre pieces principales": "nombre_pieces"}
+
