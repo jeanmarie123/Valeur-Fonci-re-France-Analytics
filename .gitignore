@@ -1,1 +1,13 @@
 .env
+env
+data
+test_code.ipynb
+etl_log.log
+venv
+logs
+etl_log.log
+docker-compose.yaml
+dockerfile
+plugins
+config
+dags

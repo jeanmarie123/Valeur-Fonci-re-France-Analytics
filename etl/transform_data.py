@@ -30,7 +30,7 @@ def transform(df_1: object, df_2: object) -> object:
     df_val_g = pd.concat([df_1, df_2], ignore_index = True)
 
     # Drop the duplicate rows
-    df_val_g = df_val_g.drop_duplicates()
+    df_val_g = df_val_g.drop_duplicates() 
 
     # Delate the columns which have more 90% missing values
     df_val_g = df_val_g.drop(col_drop, axis = 1)
