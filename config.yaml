@@ -1,9 +1,14 @@
 # Configuration du pipeline de données
 
 # Liens d'accès aux données
-val_fon_22: 'https://www.data.gouv.fr/fr/datasets/r/87038926-fb31-4959-b2ae-7a24321c599a'
-val_fon_21: 'https://www.data.gouv.fr/fr/datasets/r/817204ac-2202-4b4a-98e7-4184d154d98c'
+
+val_fon_21: 'data/valeursfoncieres-2021.txt'
+val_fon_22: 'data/valeursfoncieres-2022.txt'
 france_dept : 'data/departements-france.csv'
+
+#val_fon_22: 'https://www.data.gouv.fr/fr/datasets/r/87038926-fb31-4959-b2ae-7a24321c599a'
+#val_fon_21: 'https://www.data.gouv.fr/fr/datasets/r/817204ac-2202-4b4a-98e7-4184d154d98c'
+#france_dept : 'data/departements-france.csv'
 
 # Colonnes a prendre en compte
 select_col_list : ['No disposition', 'Date mutation', 'Nature mutation', 'Valeur fonciere', 

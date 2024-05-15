@@ -11,3 +11,6 @@ dockerfile
 plugins
 config
 dags
+env_py
+texte_docker.yaml
+Dockerfile
